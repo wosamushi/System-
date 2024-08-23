@@ -1,0 +1,138 @@
+@charset "uft-8";
+
+.contents{
+    margin: 9vw 0;
+}
+@media only screen and (max-width: 768px) {
+    .contents{
+      margin-top: 15vw;
+      margin-bottom: 0;
+    }
+  }
+  
+.smokeandimage{
+    position: relative;
+
+}
+.smokearea{
+    position: absolute;
+    background-image: url(../images/smoke/smoke2.png);
+    width: 30vw;
+    height: 30vw;
+    z-index: 3;
+    background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+    .smokearea{
+      width: 50vw;
+      height: 50vw;
+    }
+  }
+  
+.smoketitle{
+    margin-top: 13vw;
+    font-size: 1.3vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 0.4px #000 solid;
+    width: 80%;
+    margin-left: 10%;
+}
+@media only screen and (max-width: 768px) {
+    .smoketitle{
+      font-size: 2.6vw;
+    }
+  }
+  
+.smokep{
+    margin-top: 1vw;
+    font-size: .8vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width: 768px) {
+    .smokep{
+      font-size: 2.1vw;
+      margin-top: 3vw;
+    }
+  }
+  
+.smokeandimage:nth-child(1) .smokearea{
+    top: 10vw;
+    left: 0vw;
+}
+@media only screen and (max-width: 768px) {
+    .smokeandimage:nth-child(1) .smokearea{
+      left: -1vw;
+    }
+  }
+  
+.smokeandimage:nth-child(2) .smokearea{
+    top: 10vw;
+    right: 5vw;
+}
+@media only screen and (max-width: 768px) {
+    .smokeandimage:nth-child(2) .smokearea{
+      right: -2vw;
+      top: 5vw;
+    }
+  }
+.smokeandimage:nth-child(3) .smokearea{
+    top: 5vw;
+}
+@media only screen and (max-width: 768px) {
+    .smokeandimage:nth-child(3) .smokearea{
+      left: -7vw;
+      top: -13vw;
+      width: 65vw;
+      height: 50vw;
+      background-size: 65vw 50vw;
+    }
+  }
+.smokeandimage:nth-child(4) .smokearea{
+    top: -15vw;
+    right: 0;
+}
+@media only screen and (max-width: 768px) {
+    .smokeandimage:nth-child(4) .smokearea{
+      top: -32vw;
+      right: -7vw;
+      width: 75vw;
+      height: 40vw;
+      background-size: 80vw 40vw;
+    }
+  }
+  
+.imagearea{
+    padding-left: 7vw;
+    height: 42.5vw;
+}
+@media only screen and (max-width: 768px) {
+    .imagearea{
+      /* width: 98vw; */
+      padding: 0;
+      height: auto;
+      margin-left: -9vw;
+    }
+  }
+  
+.imagearea img{
+    height: 100%;
+    width: 100%;
+}
+.smokeandimage:nth-child(2)
+.imagearea{
+    padding-left: 0;
+    padding-right: 7vw;
+
+}
+@media only screen and (max-width: 768px) {
+    .smokeandimage:nth-child(2)
+.imagearea{
+      padding: 0;
+    }
+  }
+  
+.smokeandimage:nth-child(4) .imagearea{
+    height: 0;
+}
